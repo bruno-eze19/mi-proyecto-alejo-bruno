@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@import "./layout/mediaQuerry/media320";
+@import "./layout/mediaQuerry/media768";
+html{
+    color: #FFFFFF;
+    background-color: #303841;
+}
+
+header{
+    text-align: center;
+    background-color: #00ADB5;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    align-content: center;
+    nav{
+        ul{
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                font-family: "Bruno Ace SC", sans-serif;
+                font-size: 20px;
+                margin: 20px;
+                &:hover{
+                    color: black;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+main{
+    .contacto{
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-evenly;
+        height: 400px;
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 20px;
+        }
+    }
+    .section-perfil {
+        text-align: center;
+        font-family: "Bruno Ace SC", sans-serif;
+        font-size: 28px;
+        img {
+            width: 25rem;
+            height: 25rem;
+            border-radius: 18px;
+        }
+    }
+    .section-perfil2 {
+        width: 100%;
+        height: 18.75rem;
+        background-image: url(../assets/img/fulvo.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        h1{
+            text-align: left;
+            font-family: "Bruno Ace SC", sans-serif;
+            font-size: 2.5rem;
+            width: 50%;
+            height: 18.75rem;
+        }
+    }
+    .section-texto {
+        background-color: #FF5722;
+        p {
+            text-align: center;
+            font-family: "Bruno Ace", sans-serif;
+            font-size: 20px;
+        }
+        h2 {
+            text-align: center;
+            font-family: "Bruno Ace SC", sans-serif;
+            font-size: 24px;
+        }
+    }
+    .section-otros {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    .boton img {
+        width: 18.75rem;
+        height: 18.75rem;
+        margin: 30px;
+        filter: grayscale(1);
+        border-radius: 180px;
+        &:hover {
+            filter: none;
+        }
+    }
+}
+footer {
+    text-align: right;
+    background-color: #FFFFFF;
+    bottom: 0rem;
+    position:fixed;
+    width: 100%;
+    height: 40px;
+    padding: 0px 0px 0px 20px;
+    a img {
+        padding: 0px 10px 0px 10px;
+    }
+}

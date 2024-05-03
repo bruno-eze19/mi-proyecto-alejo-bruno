@@ -1,0 +1,37 @@
+@media (max-width: 768px){
+    .boton img {
+        width: 12.5rem;
+        height: 12.5rem;
+        margin: 30px;
+    }
+    .section-perfil img {
+        width: 18.75rem;
+        height: 18.75rem;
+    }
+    header {
+        height: 36px;
+    }
+    header nav ul a {
+        font-size: 16px;
+        margin: 15px;
+    }
+    .section-perfil {
+        font-size: 24px;
+    }
+    .section-texto p {
+        font-size: 16px;
+    }
+    .section-texto h2 {
+        font-size: 20px;
+    }
+    .section-perfil2 {
+        height: 12.5rem;
+    }
+    .section-perfil2 h1{
+        font-size: 1.75rem;
+        height: 12.5rem;
+    }
+    footer {
+        height: 36px;
+    }
+}
